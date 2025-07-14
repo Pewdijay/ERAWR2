@@ -40,7 +40,7 @@ Features a beautiful, responsive frontend and a robust Django REST API backend w
 
 ```
 emtech/
-├── Main.html                # Main frontend file
+├── index.html                # Main frontend file
 ├── Main.css                 # Frontend styles
 ├── menu.js                  # Frontend interactivity
 ├── account.js               # Auth/profile JS logic
@@ -129,7 +129,7 @@ The backend API will be available at `http://127.0.0.1:8000/`.
 
 ### 5. Frontend Usage
 
-- Open `Main.html` directly in your browser for static testing.
+- Open `index.html` directly in your browser for static testing.
 - For full authentication and API features, ensure the Django server is running.
 - The frontend expects the backend at `http://127.0.0.1:8000/` (adjust in JS if needed).
 
@@ -166,7 +166,7 @@ The backend API will be available at `http://127.0.0.1:8000/`.
 
 - **CORS errors:** Ensure `django-cors-headers` is installed and configured in `settings.py`.
 - **401 Unauthorized:** Make sure your JWT token is present and valid in requests.
-- **Static files not loading:** Open `Main.html` directly or serve via a static file server.
+- **Static files not loading:** Open `index.html` directly or serve via a static file server.
 - **OAuth issues:** Double-check your client IDs and redirect URIs.
 
 ---
