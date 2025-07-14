@@ -1,5 +1,5 @@
 // Shared cart functionality for all pages
-// This file should be included on all pages (Main.html, faqs.html, about.html, etc.)
+// This file should be included on all pages (index.html, faqs.html, about.html, etc.)
 
 // Get current user ID (for cart key)
 function getCurrentUserId() {
